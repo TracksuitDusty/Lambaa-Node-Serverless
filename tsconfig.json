@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "src",
+    "lib": [
+      "es6",
+      "es2017"
+    ],
+    "rootDirs": [
+      "./src",
+      "./test"
+    ],
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "sourceMap": true,
+    "target": "es6",
+    "outDir": "./build",
+    "types": [
+      "aws-lambda",
+      "aws-sdk",
+      "mocha",
+      "node"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
